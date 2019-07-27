@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" type="text/css" href="src/packages/owl-carousel/assets/owl.carousel.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="src/packages/owl-carousel/assets/owl.theme.default.min.css" />
+
+
+    <link rel="stylesheet" href="./src/styles/bth-theme.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
+    <title>Ban học tập Công nghệ phần mềm | Trang chủ</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="nav-bar">
+            <div class="nav-left">
+                <div class="logo-wraper">
+                    <img src="/src/img/home/Ellipse (1).png" />
+                </div>
+                <div class="main-input search-bar">
+                    <div class="input-icon input">
+                        <img src="./src/img/icons/icon-search.png">
+                    </div>
+                    <input class="" type="text" />
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href=#>Cuộc thi</a></li>
+                        <li><a href=#>Tài liệu</a></li>
+                        <li><a href=#>Bài viết</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="user-menu">
+                    <button onclick="openLoginModal()">Login</button>
+                    <button onclick="openSignupModal()">Signup</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="course-detail">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="course-info">
+                        <div class="course-image">
+                            <img src="./src/img/tailieu/lineara.png" />
+                        </div>
+                        <div class="course-name">
+                            <h4>Lập trình trực quan</h4>
+                            <p>
+                                Đại số tuyến tính là một ngành toán học nghiên cứu về không gian vectơ, hệ phương trình
+                                tuyến tính và các phép biến ...
+                            </p>
+                            <div class="btn-area">
+                                <button>Bài viết</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-9">
+                    <div class="document-area">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tên tài liệu</th>
+                                    <th>Tên tài liệu</th>
+                                    <th>Lượt tải</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="doc-row">
+                                    <td>[2017 - 2018] Giữa kì II</td>
+                                    <td>Nguyễn Hồng Phúc</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr class="doc-row">
+                                    <td>[2017 - 2018] Giữa kì II</td>
+                                    <td>Nguyễn Hồng Phúc</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr class="doc-row">
+                                    <td>[2017 - 2018] Giữa kì II</td>
+                                    <td>Nguyễn Hồng Phúc</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr class="doc-row">
+                                    <td>[2017 - 2018] Giữa kì II</td>
+                                    <td>Nguyễn Hồng Phúc</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr class="doc-row">
+                                    <td>[2017 - 2018] Giữa kì II</td>
+                                    <td>Nguyễn Hồng Phúc</td>
+                                    <td>300</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                    <div class="bottom-bar">
+                        <div>
+                            <ul class="bottom-menu">
+                                <li class="active">Đề thi</li>
+                                <li>Bài giảng</li>
+                                <li>Tài liệu</li>
+                                <li>Training</li>
+                                <li>Video</li>
+                                <li>Sách</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="bottom-menu func-button">
+                                <li>
+                                    <i alt="Tải" class="fas fa-download"></i>
+                                </li>
+                                <li id="btn-upload">
+                                    <i class="fas fa-upload"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-heart"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-info"></i>
+                                </li>
+                                <li>
+                                    <i class="fas fa-save"></i>
+                                </li>
+                                <div id="upload-modal" class="upload-ui">
+                                    <h3>chọn loại tài liệu</h3>
+                                    <span id="modal-close"
+                                    
+                                    onclick='closeModal("upload-modal")'
+                                    class="close"><i class="fas fa-times"></i></span>
+                                    <form>
+                                        <select>
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="opel">Opel</option>
+                                            <option value="audi">Audi</option>
+                                        </select>
+                                        <input type="submit" />
+                                    </form>
+
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="footer-logo-name">
+                    <div class="logo">
+
+                    </div>
+                    <div class="name">
+
+                    </div>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li> Kênh thông tin Sinh viên của BHT khoa CNPM - Trường ĐH CNTT - ĐHQG-HCM. Website do Ban học
+                            tập CNPM
+                            thực hiện và quản lý.</li>
+                        <li>
+                            Phát triển: Nguyễn Hồng Phúc
+                        </li>
+                        <li>
+                            Chịu trách nhiệm nội dung: Lưu Biêu Nghị
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h4>Top bài viết</h4>
+                <ul>
+                    <li>Lập trình hướng đối tượng - phần 1</li>
+                    <li>Lập trình hướng đối tượng - phần 2</li>
+                    <li>Lập trình hướng đối tượng - phần 3</li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>Địa chỉ</h4>
+                <p>Đường Hàn Thuyên, Khu phố 6, P. Linh Trung, Q. Thủ Đức, TP Hồ Chí Minh</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4>@2019 Website Ban học tập Đoàn khoa Công nghệ Phần mềm. All rights reserved.
+                </h4>
+            </div>
+        </div>
+    </footer>
+    <div id="id01" class="modal login-form">
+        <div class="modal-content animate">
+            <form method="POST" action="/LOGIN">
+                <div class="logo form-item">
+                    <img src="./src/img/home/Ellipse (1).png" />
+                </div>
+                <div class="log-input main-input form-item">
+                    <img class="logo-input" src="./src/img/icons/icons8-administrator-male-32.png" />
+                    <input type="text" placeholder="Tên đăng nhập" name="username" required />
+                </div>
+                <div class="log-input main-input form-item">
+                    <img class="logo-input" src="src/img/icons/icons8-password-32.png" />
+                    <input type="password" placeholder="Mật khẩu" name="password" required />
+                </div>
+                <div class="form-item">
+                    <button>Login</button>
+                </div>
+                <div class="form-item">
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+            </form>
+            <div class="modal-close">
+                <button class="btn-close" onclick="closeLoginModal()"><img
+                        src="./src/img/icons/icons8-delete-30.png" /></button>
+            </div>
+        </div>
+    </div>
+    <div id="id02" class="modal login-form">
+        <div class="modal-content animate">
+            <form method="POST" action="/SIGNUP">
+                <div>
+                    Signup
+                </div>
+                <div class="signup-form">
+                    <div class="left">
+                        <div class="logo form-item">
+                            <img src="./src/img/home/Ellipse (1).png" />
+                        </div>
+                        <div class="log-input main-input form-item">
+                            <img class="logo-input" src="./src/img/icons/icons8-administrator-male-32.png" />
+                            <input type="text" placeholder="Tên đăng nhập" name="username" required />
+                        </div>
+                        <div class="log-input main-input form-item">
+                            <img class="logo-input" src="src/img/icons/icons8-password-32.png" />
+                            <input type="password" placeholder="Mật khẩu" name="password" required />
+                        </div>
+                        <div class="form-item">
+                            <button>Login</button>
+                        </div>
+                        <div class="form-itema">
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                        </div>
+                    </div>
+                    <div class="right">
+                        Hello
+                    </div>
+                </div>
+
+
+            </form>
+            <div class="modal-close">
+                <button class="btn-close" onclick="closeSignupModal()"><img
+                        src="./src/img/icons/icons8-delete-30.png" /></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./src/packages/owl-carousel/owl.carousel.js"></script>
+    <script>
+        // Get the modal
+        var modalLogin = document.getElementById('id01');
+        var modalSignup = document.getElementById('id02');
+
+
+        function openLoginModal() {
+            modalLogin.style.display = "block"
+        }
+
+        function closeLoginModal() {
+            modalLogin.style.display = "none"
+        }
+
+        function openSignupModal() {
+            modalSignup.style.display = "block"
+        }
+
+        function closeSignupModal() {
+            modalSignup.style.display = "none"
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modalLogin) {
+                modalLogin.style.display = "none";
+            }
+            if (event.target == modalSignup) {
+                modalSignup.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+       
+    </script>
+    <script src="./src/js/page-js/home.js"></script>
+    <script src="./src/js/page-js/tai-lieu.js"></script>
+</body>
+
+</html>
